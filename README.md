@@ -20,6 +20,7 @@ The School Management System is a comprehensive application designed to facilita
       - [Teacher time table](#52-teacher-timetables)
       - [Class time table](#53-class-timetables)
     - [Contribution](#contributing-to-school-management-client)
+    - [Contact Me](#contributing-to-school-management-client)
 
 # Introduction
 
