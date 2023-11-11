@@ -1,0 +1,30 @@
+.class-detail-wrap,
+.time-table-warp {
+  table {
+    border: 1px solid var(--ion-color-medium);
+    border-collapse: collapse;
+    width: 100%;
+
+    tr,
+    th,
+    td {
+      border: 1px solid var(--ion-color-medium);
+      border-collapse: collapse;
+      text-align: center;
+      padding: 10px 0px;
+    }
+  }
+}
+
+body.dark-theme {
+  .class-detail-wrap,
+  .time-table-warp {
+    table {
+      tr,
+      th,
+      td {
+        border-color: var(--ion-color-light);
+      }
+    }
+  }
+}

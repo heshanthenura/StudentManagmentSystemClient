@@ -1,0 +1,27 @@
+ion-card {
+  padding: 10px;
+  color: var(--ion-color-dark);
+  h1 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  h5 {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .links-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+}
+
+body.dark-theme {
+  ion-card {
+    color: var(--ion-color-light);
+  }
+}

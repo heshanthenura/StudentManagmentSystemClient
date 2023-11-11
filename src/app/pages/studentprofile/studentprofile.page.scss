@@ -1,0 +1,43 @@
+.student-details-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  gap: 5px;
+
+  .student-detail {
+    width: 100%;
+
+    padding: 0px 10px;
+    ion-card {
+      width: 100%;
+      margin: 0;
+      color: var(--ion-color-dark);
+      h1,
+      h3 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+    }
+  }
+}
+
+body.dark-theme {
+  .student-details-wrap {
+    .student-detail {
+      ion-card {
+        width: 100%;
+        margin: 0;
+        color: var(--ion-color-light);
+        h1,
+        h3 {
+          margin: 0;
+          padding: 0;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

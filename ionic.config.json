@@ -1,5 +1,7 @@
 {
   "name": "StudentManagmentSystemClient",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
