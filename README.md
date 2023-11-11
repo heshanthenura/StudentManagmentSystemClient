@@ -24,7 +24,7 @@ Access detailed information about each student in the school, including:
 - Academic records
 - Attendance history
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/75155192/282219277-70bf38f7-e5b6-47e0-89e6-791ddedcf647.png">
+<img src="https://user-images.githubusercontent.com/75155192/282219277-70bf38f7-e5b6-47e0-89e6-791ddedcf647.png" width="30%">
 </p>
 
 ## 2. Teacher Profiles
@@ -35,7 +35,7 @@ View profiles of teachers associated with the school, containing information abo
 - Classes taught
 - Contact details
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/75155192/282219346-b9996d3b-d819-4d73-b2e0-e5d6b4763652.png">
+<img src="https://user-images.githubusercontent.com/75155192/282219346-b9996d3b-d819-4d73-b2e0-e5d6b4763652.png" width="30%">
 </p>
 
 ## 3. Attendance Management
@@ -75,7 +75,7 @@ Provide comprehensive details about each class, including:
 - Class teacher
 - Number of students
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/75155192/282219409-5aef8327-639e-4df0-bb7c-eef58cf9e9d7.png">
+<img src="https://user-images.githubusercontent.com/75155192/282219409-5aef8327-639e-4df0-bb7c-eef58cf9e9d7.png" width="30%">
 </p>
 
 ### 5.2 Teacher Timetables
@@ -96,8 +96,9 @@ Access timetables for each class, displaying:
 Including these features enhances the overall functionality of the School Management System, providing users with a complete tool for managing both administrative and academic aspects of the school.
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/75155192/282219363-17ef8af1-26ad-44f4-a2fa-2cfd94385634.png">
-</p> 
+<img src="https://user-images.githubusercontent.com/75155192/282219363-17ef8af1-26ad-44f4-a2fa-2cfd94385634.png" width="30%">
+</p>
+
 # Installation
 
 Follow these steps to set up the School Management System:
