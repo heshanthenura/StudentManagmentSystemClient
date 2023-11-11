@@ -6,6 +6,21 @@ The School Management System is a comprehensive application designed to facilita
 <video src="https://user-images.githubusercontent.com/75155192/282219571-2c2379cc-47d6-45bc-8ae7-1a037086c6eb.mp4" autoplay>
 </p>
 
+- # Contentent
+  - [Introduction](#introduction)
+  - [School management system features](#school-management-system-features)
+    - [Student profile](#1-student-profiles)
+    - [Teacher profile](#2-teacher-profiles)
+    - [Attendance management](#3-attendance-management)
+      - [Manual Attendance](#31-manual-attendance)
+      - [QR code scanning](#32-qr-code-scanning)
+    - [Grade and marks update](#4-grade-and-marks-update)
+    - [Class details and time tables](#5-class-details-and-timetables)
+      - [Class details](#51-class-details)
+      - [Teacher time table](#52-teacher-timetables)
+      - [Class time table](#53-class-timetables)
+    - [Contribution](#contributing-to-school-management-client)
+
 # Introduction
 
 This School Management System is an independent project developed by Heshan Thenura Kariyawasam, leveraging the Ionic framework and Angular. The purpose of this project is to provide a comprehensive solution for managing student and teacher information within a school environment.
@@ -99,7 +114,7 @@ Including these features enhances the overall functionality of the School Manage
 <img src="https://user-images.githubusercontent.com/75155192/282219363-17ef8af1-26ad-44f4-a2fa-2cfd94385634.png" width="30%">
 </p>
 
-# Installation
+<!-- # Installation
 
 Follow these steps to set up the School Management System:
 
@@ -115,7 +130,7 @@ npm install
 
 # Start the application
 npm start
-```
+``` -->
 
 # Contributing to School Management Client
 
@@ -162,3 +177,15 @@ Please adhere to the established code style and guidelines in the project to mai
 Ensure that you follow our Code of Conduct when contributing to the project.
 
 Thank you for your contributions! Let's work together to make the School Management System even more robust and feature-rich.
+
+### If you're interested in custom application development or would like to discuss a project, please don't hesitate to contact me
+
+<a name="contact"></a>
+
+<ul>
+    <li><a href="https://twitter.com/Heshantk">Twitter</a></li>
+    <li><a href="https://www.linkedin.com/in/heshanthenura">LinkedIn</a></li>
+    <li><a href="https://www.instagram.com/heshan_thenura/">Instagram</a></li>
+    <li><a href="https://youtube.com/@heshanthenura">YouTube</a></li>
+    <li><a href="https://www.tiktok.com/@heshanthenura">TikTok</a></li>
+</ul>
