@@ -8,7 +8,7 @@ The School Management System is a comprehensive application designed to facilita
 
 This School Management System is an independent project developed by Heshan Thenura Kariyawasam, leveraging the Ionic framework and Angular. The purpose of this project is to provide a comprehensive solution for managing student and teacher information within a school environment.
 
-<img src="https://user-images.githubusercontent.com/75155192/282219400-d7f5d9cc-4986-40ca-b0bc-04bba93da82e.png" width="20%">
+<img src="https://user-images.githubusercontent.com/75155192/282219400-d7f5d9cc-4986-40ca-b0bc-04bba93da82e.png" width="30%">
 
 # School Management System Features
 
