@@ -3,7 +3,7 @@
 The School Management System is a comprehensive application designed to facilitate efficient management of students, teachers, and academic data within a school. This application provides a user-friendly interface for viewing student and teacher profiles, recording attendance, updating student grades, and managing other essential school-related tasks.
 
 <p align="center"> 
-# <video src="https://user-images.githubusercontent.com/75155192/282219571-2c2379cc-47d6-45bc-8ae7-1a037086c6eb.mp4" autoplay>
+<video src="https://user-images.githubusercontent.com/75155192/282219571-2c2379cc-47d6-45bc-8ae7-1a037086c6eb.mp4" autoplay>
 </p>
 
 # Introduction
@@ -11,8 +11,9 @@ The School Management System is a comprehensive application designed to facilita
 This School Management System is an independent project developed by Heshan Thenura Kariyawasam, leveraging the Ionic framework and Angular. The purpose of this project is to provide a comprehensive solution for managing student and teacher information within a school environment.
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/75155192/282219400-d7f5d9cc-4986-40ca-b0bc-04bba93da82e.png" width="40%" >
+<img src="https://user-images.githubusercontent.com/75155192/282219400-d7f5d9cc-4986-40ca-b0bc-04bba93da82e.png" width="30%" >
 </p>
+
 # School Management System Features
 
 ## 1. Student Profiles
@@ -22,8 +23,9 @@ Access detailed information about each student in the school, including:
 - Personal details
 - Academic records
 - Attendance history
-
+<p align="center"> 
 <img src="https://user-images.githubusercontent.com/75155192/282219277-70bf38f7-e5b6-47e0-89e6-791ddedcf647.png">
+</p>
 
 ## 2. Teacher Profiles
 
@@ -32,8 +34,9 @@ View profiles of teachers associated with the school, containing information abo
 - Qualifications
 - Classes taught
 - Contact details
-
+<p align="center"> 
 <img src="https://user-images.githubusercontent.com/75155192/282219346-b9996d3b-d819-4d73-b2e0-e5d6b4763652.png">
+</p>
 
 ## 3. Attendance Management
 
@@ -71,8 +74,9 @@ Provide comprehensive details about each class, including:
 - Class name
 - Class teacher
 - Number of students
-
+<p align="center"> 
 <img src="https://user-images.githubusercontent.com/75155192/282219409-5aef8327-639e-4df0-bb7c-eef58cf9e9d7.png">
+</p>
 
 ### 5.2 Teacher Timetables
 
@@ -91,8 +95,9 @@ Access timetables for each class, displaying:
 
 Including these features enhances the overall functionality of the School Management System, providing users with a complete tool for managing both administrative and academic aspects of the school.
 
+<p align="center"> 
 <img src="https://user-images.githubusercontent.com/75155192/282219363-17ef8af1-26ad-44f4-a2fa-2cfd94385634.png">
-
+</p> 
 # Installation
 
 Follow these steps to set up the School Management System:
