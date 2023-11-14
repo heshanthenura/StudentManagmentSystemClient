@@ -1,0 +1,78 @@
+<ion-header *ngIf="!isScanning">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Student Details</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-fab slot="fixed" vertical="bottom" horizontal="center">
+    <ion-fab-button id="closeBtn" (click)="StartOrStop()">
+      <ion-icon [name]="isScanning? 'close-sharp':'qr-code-sharp' "></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  <div class="content-wrap" *ngIf="!isScanning">
+    <div id="error-msg">
+      {{errorMsg}}
+      <div class="fetch-data-msg" *ngIf="isFetchingData">
+        <ion-label>Getting Data From Server</ion-label
+        ><ion-spinner name="dots"></ion-spinner>
+      </div>
+    </div>
+
+    <!-- <h1>{{QRData_name}}</h1>
+    <h1>{{QRData_index}}</h1>
+    <div *ngIf="student!=undefined">
+      <h1>{{student.school_id}}</h1>
+      <h1>{{student.school_index}}</h1>
+      <h1>{{student.DOB}}</h1>
+      <h1>{{student.DOA}}</h1>
+    </div> -->
+
+    <ion-list
+      [inset]="true"
+      *ngIf="QRData_name !== undefined && QRData_index !== undefined"
+    >
+      <ion-item *ngIf="QRData_name">
+        <div class="student-details-item">
+          <h2>Name</h2>
+          <h6>{{QRData_name}}</h6>
+        </div>
+      </ion-item>
+      <ion-item *ngIf="QRData_index">
+        <div class="student-details-item">
+          <h2>Index Number</h2>
+          <h6>{{QRData_index}}</h6>
+        </div>
+      </ion-item>
+      <div *ngIf="student!=undefined">
+        <ion-item>
+          <div class="student-details-item">
+            <h2>School ID</h2>
+            <h6>{{student.school_id}}</h6>
+          </div>
+        </ion-item>
+        <ion-item>
+          <div class="student-details-item">
+            <h2>School Index</h2>
+            <h6>{{student.school_index}}</h6>
+          </div>
+        </ion-item>
+        <ion-item>
+          <div class="student-details-item">
+            <h2>Date Of Birth</h2>
+            <h6>{{student.dob}}</h6>
+          </div>
+        </ion-item>
+        <ion-item>
+          <div class="student-details-item">
+            <h2>Date Of Admission</h2>
+            <h6>{{student.doa}}</h6>
+          </div>
+        </ion-item>
+      </div>
+    </ion-list>
+  </div>
+</ion-content>

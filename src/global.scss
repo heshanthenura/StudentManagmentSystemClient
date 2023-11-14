@@ -32,3 +32,8 @@ ion-menu-button {
 body.dark-theme {
   color: var(--ion-color-light);
 }
+
+body.scanner-active {
+  --background: transparent;
+  --ion-background-color: transparent;
+}

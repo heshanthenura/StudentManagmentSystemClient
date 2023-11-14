@@ -18,23 +18,29 @@ const routes: Routes = [
       import('./pages/about/about.module').then((m) => m.AboutPageModule),
   },
   {
-    path: 'attendance',
+    path: 'teacherprofile',
     loadChildren: () =>
-      import('./pages/student/attendance/attendance.module').then(
-        (m) => m.AttendancePageModule
+      import('./pages/teacherprofile/teacherprofile.module').then(
+        (m) => m.TeacherprofilePageModule
       ),
   },
   {
-    path: 'teacherprofile',
-    loadChildren: () => import('./pages/teacherprofile/teacherprofile.module').then( m => m.TeacherprofilePageModule)
-  },
-  {
     path: 'classprofile',
-    loadChildren: () => import('./pages/classprofile/classprofile.module').then( m => m.ClassprofilePageModule)
+    loadChildren: () =>
+      import('./pages/classprofile/classprofile.module').then(
+        (m) => m.ClassprofilePageModule
+      ),
   },
   {
     path: 'studentprofile',
-    loadChildren: () => import('./pages/studentprofile/studentprofile.module').then( m => m.StudentprofilePageModule)
+    loadChildren: () =>
+      import('./pages/studentprofile/studentprofile.module').then(
+        (m) => m.StudentprofilePageModule
+      ),
+  },
+  {
+    path: 'studentdetails',
+    loadChildren: () => import('./pages/QR/studentdetails/studentdetails.module').then( m => m.StudentdetailsPageModule)
   },
 ];
 

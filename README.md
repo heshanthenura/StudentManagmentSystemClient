@@ -43,6 +43,12 @@ Access detailed information about each student in the school, including:
 <img src="https://user-images.githubusercontent.com/75155192/282219277-70bf38f7-e5b6-47e0-89e6-791ddedcf647.png" width="30%">
 </p>
 
+### 1.1 View Details By QR Scan
+
+Just scan QR code and get basic details of student from a server.
+
+<video src="https://user-images.githubusercontent.com/75155192/282802253-b69fb234-bab6-42f0-a9e3-a596a4026925.mp4">
+
 ## 2. Teacher Profiles
 
 View profiles of teachers associated with the school, containing information about:
